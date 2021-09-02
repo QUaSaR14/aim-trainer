@@ -1,0 +1,108 @@
+@import './theme.scss';
+.App {
+  text-align: center;
+  height: 100%;
+  width: 100% !important;
+  background-color: var(--app-color);
+  -webkit-transition: background-color 1000ms linear;
+  -ms-transition: background-color 1000ms linear;
+  transition: background-color 1s ease;
+  overflow-x: hidden;
+}
+
+.canvas{
+    border: 2px solid tomato;
+    border-radius: 4px;
+    background-color: var(--canvas-color);
+    z-index: 1;
+    cursor: crosshair;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.canvas:focus{
+    outline: none;
+    
+    /* cursor: crosshair; */
+    /* border: 3px solid rgb(255, 133, 52);
+    border-radius: 4px; */
+/* background-color: rgb(6, 43, 66); */
+}
+
+.core-button{
+    background-color: tomato !important;
+    color: white !important;
+    
+    border-radius: 4px;
+    font-size: x-large;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+}
+
+
+.core-button:hover{
+    background-color: white !important;
+    color: tomato !important;
+}
+
+.settings-button{
+    background-color: tomato !important;
+    color: white !important;
+    border: none !important;;
+}
+
+.settings-button:hover{
+    background-color: white !important;
+    color: tomato !important;
+}
+ 
+.settings-close-button{
+    background-color: white !important;
+    color: tomato !important;
+    border: none !important;
+}
+.sound-disabled-button{
+    background-color: white !important;
+    color: rgb(157, 157, 157) !important;
+    border: none !important;
+}
+.ant-modal-close{
+    border: none !important;
+    outline: none !important;
+}
+
+.text{
+    color: var(--text-color) !important;
+}
+        
+@media screen and (max-width:750px) {
+    .nav-bar-stat-item{
+        display: none;
+        visibility: hidden;
+    }
+    .nav-bar-title{
+        font-size: medium;
+        font-weight: 600;
+    }
+}
+
+::-webkit-scrollbar {
+  width: 0.3em;
+  
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--app-color);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: tomato;
+  border-radius: 0.15em;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+
