@@ -204,7 +204,7 @@ const Home = (props) => {
           ></img>
 
           <a
-            href="https://github.com/ragsav/aim-trainer"
+            href="https://github.com/QUaSaR14/aim-trainer"
             className="d-flex justify-content-center align-items-center"
           >
             <GithubFilled className="github" />
