@@ -2,7 +2,7 @@
   "name": "aim-trainer",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://QUaSaR14.github.io/aim-trainer/",
+  "homepage": "https://quasar14.github.io/aim-trainer/",
   "dependencies": {
     "@material-ui/core": "^4.11.4",
     "@monaco-editor/react": "^4.1.3",
